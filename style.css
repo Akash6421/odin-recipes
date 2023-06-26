@@ -1,67 +1,43 @@
-    /*div{
-        background-color: red;
-        color:white;
-        font-size: 32 px;
-        text-align:center;
-        font-weight: bold;
-    }*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para,
+  .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+  }
+  
+  .small-para {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  .para {
+    font-size: 22px;
+  }
+  
+  #confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+  } 
+  
+  .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+  .text .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+  
+  div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
 
-    /* p{ 
-        background-color: green;
-        color:white;
-        font-size: 18 px;
-    } */
-
-    .container .text{ /*descendant selector*/
-        background-color: yellow;
-        color:red;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    button{ /*type selector */
-        background-color: orange;
-        font-size: 18 px;
-    }
-
-    .NumberOdd{
-    background-color: palevioletred;
-    font-family: Verdana, "DejaVu Sans", sans-serif;
-    }
-
-    .Size{
-        font-size: 24px;
-    }
-
-    #numberTwo{
-    color:blue;
-    font-size: 36px;
-    }
-
-    #numberFour{  /*Access Id*/
-        background-color: lightgreen;
-        font-weight: bold;
-        }
-
-    .click{
-        background-color: black;
-        color: white;
-    }
-
-    .noClick{ /*Access Class*/
-        background-color: yellow;
-    }
-
-    .click,.noClick{ /*Grouping Selectors*/
-        font-size: 28px;
-        font-family: Helvetica,'Times New Roman', sans-serif
-    }
-
-    .avatar.proportioned{ /*Chaining Selectors*/
-        width: 300px;
-        height:auto;
-    }
-    .avatar.distorted{/*Chaining Selectors*/
-        width: 200px;
-        height:400px;
-    }
