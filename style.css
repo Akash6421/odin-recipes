@@ -6,13 +6,20 @@
         font-weight: bold;
     }*/
 
-    p{
+    /* p{ 
         background-color: green;
         color:white;
         font-size: 18 px;
+    } */
+
+    .container .text{ /*descendant selector*/
+        background-color: yellow;
+        color:red;
+        font-size: 20px;
+        text-align: center;
     }
 
-    button{
+    button{ /*type selector */
         background-color: orange;
         font-size: 18 px;
     }
@@ -31,7 +38,7 @@
     font-size: 36px;
     }
 
-    #numberFour{
+    #numberFour{  /*Access Id*/
         background-color: lightgreen;
         font-weight: bold;
         }
@@ -41,18 +48,20 @@
         color: white;
     }
 
-    .noClick{
+    .noClick{ /*Access Class*/
         background-color: yellow;
     }
-    .click,.noClick{
+
+    .click,.noClick{ /*Grouping Selectors*/
         font-size: 28px;
         font-family: Helvetica,'Times New Roman', sans-serif
     }
-    .avatar.proportioned{
+
+    .avatar.proportioned{ /*Chaining Selectors*/
         width: 300px;
         height:auto;
     }
-    .avatar.distorted{
+    .avatar.distorted{/*Chaining Selectors*/
         width: 200px;
         height:400px;
     }
