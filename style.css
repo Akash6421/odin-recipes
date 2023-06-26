@@ -1,0 +1,58 @@
+    /*div{
+        background-color: red;
+        color:white;
+        font-size: 32 px;
+        text-align:center;
+        font-weight: bold;
+    }*/
+
+    p{
+        background-color: green;
+        color:white;
+        font-size: 18 px;
+    }
+
+    button{
+        background-color: orange;
+        font-size: 18 px;
+    }
+
+    .NumberOdd{
+    background-color: palevioletred;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    }
+
+    .Size{
+        font-size: 24px;
+    }
+
+    #numberTwo{
+    color:blue;
+    font-size: 36px;
+    }
+
+    #numberFour{
+        background-color: lightgreen;
+        font-weight: bold;
+        }
+
+    .click{
+        background-color: black;
+        color: white;
+    }
+
+    .noClick{
+        background-color: yellow;
+    }
+    .click,.noClick{
+        font-size: 28px;
+        font-family: Helvetica,'Times New Roman', sans-serif
+    }
+    .avatar.proportioned{
+        width: 300px;
+        height:auto;
+    }
+    .avatar.distorted{
+        width: 200px;
+        height:400px;
+    }
